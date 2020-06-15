@@ -1,0 +1,91 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "创意"
+			}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/imgCategory/index",
+			"style": {
+				"navigationBarTitleText": "图片分类"
+			}
+		},
+		{
+			"path": "pages/album/index",
+			"style": {
+				"navigationBarTitleText": "专辑详情"
+			}
+		},
+		{
+			"path": "pages/demo/index",
+			"style": {
+				"navigationBarTitleText": "学习触屏事件"
+			}
+		},
+		{
+			"path": "pages/imgDetail/index",
+			"style": {
+				"navigationBarTitleText": "图片详情"
+			}
+		},
+		{
+			"path": "pages/home/home-album/index",
+			"style": {
+				"navigationBarTitleText": "喜欢"
+			}
+		},
+
+		{
+			"path": "pages/home/home-category/index",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "懂你找图",
+		"navigationBarBackgroundColor": "#000"
+
+	},
+	"tabBar": {
+		"color": "#333",
+		"selectedColor": "#e8989a",
+		"backgroundColor": "#fff",
+		"position": "bottom",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"text": "首页",
+				"iconPath": "./static/icon/home.png",
+				"selectedIconPath": "./static/icon/homed.png"
+			},
+			{
+				"pagePath": "pages/home/home-album/index",
+				"text": "喜欢",
+				"iconPath": "./static/icon/album.png",
+				"selectedIconPath": "./static/icon/albumed.png"
+			},
+			{
+				"pagePath": "pages/home/home-category/index",
+				"text": "分类",
+				"iconPath": "./static/icon/sort.png",
+				"selectedIconPath": "./static/icon/sorted.png"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"text": "创意",
+				"iconPath": "./static/icon/idea.png",
+				"selectedIconPath": "./static/icon/ideaed.png"
+			}
+		]
+	}
+}
